@@ -5,7 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Content Include="wwwroot\defaults\cutomLandingPage.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\js\" />
+    <Folder Include="Resources\css\" />
+    <Folder Include="Resources\images\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
